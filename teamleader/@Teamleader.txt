@@ -1,7 +1,7 @@
 >>Fragen:
 
 1)
-Frage:   MultiClientServer oder nur einer der dann nach dem Timelimit gekicked wird?
+Frage:   MultiClientServer oder ein EinClientServer der dann nach dem ablaufes des Timelimits den Client kicked?
 Antwort:
 
 2)
