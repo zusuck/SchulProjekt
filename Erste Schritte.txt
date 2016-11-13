@@ -1,5 +1,12 @@
 Laut Aufgabe müssen wir  Design vorschläge machen und uns dann beraten welcher besser ist. Mit hilfe von usecase und ich wird Gui screenshots als ideen anhängen.
 nach ein paar vorschlägen müssen wir uns entscheiden und der Teamleiter muss die begründung aufschreiben!
+Wir müssen Nutzen
+>Usecase
+>Struktogramm
+>Designentscheidung
+>GuiDesign Vorschläge
+
+Der Teamleader muss unteranderem ein Gantt Diagramm erstellen also wann meetings (meist  per Discord) sind
 
 1. Marc und ich werden design vorschläge machen und diese als word in den Planungsordner speichern. mit begründung (kommt alles später besser an rechtschreibung beachten!!!)
 2. Wir werden ein "Meeting zu 4 machen und uns beraten welcher vorschlag am besten ist
