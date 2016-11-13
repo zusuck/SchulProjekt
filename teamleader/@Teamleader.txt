@@ -5,7 +5,7 @@ Frage:   MultiClientServer oder ein EinClientServer der dann nach dem ablaufes d
 Antwort:
 
 2)
-Frage:
+Frage: Gui in Deutsch oder in Englisch
 Antwort:
 
 
