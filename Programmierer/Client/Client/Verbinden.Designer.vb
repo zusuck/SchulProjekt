@@ -32,57 +32,63 @@ Partial Class Verbinden
         '
         'txtbServerIP
         '
-        Me.txtbServerIP.Location = New System.Drawing.Point(38, 45)
+        Me.txtbServerIP.Location = New System.Drawing.Point(28, 37)
+        Me.txtbServerIP.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtbServerIP.Name = "txtbServerIP"
-        Me.txtbServerIP.Size = New System.Drawing.Size(144, 22)
+        Me.txtbServerIP.Size = New System.Drawing.Size(109, 20)
         Me.txtbServerIP.TabIndex = 0
         '
         'txtbServerPort
         '
-        Me.txtbServerPort.Location = New System.Drawing.Point(38, 112)
+        Me.txtbServerPort.Location = New System.Drawing.Point(28, 91)
+        Me.txtbServerPort.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtbServerPort.Name = "txtbServerPort"
-        Me.txtbServerPort.Size = New System.Drawing.Size(144, 22)
+        Me.txtbServerPort.Size = New System.Drawing.Size(109, 20)
         Me.txtbServerPort.TabIndex = 1
         '
         'lblServerPort
         '
         Me.lblServerPort.AutoSize = True
-        Me.lblServerPort.Location = New System.Drawing.Point(68, 83)
+        Me.lblServerPort.Location = New System.Drawing.Point(51, 67)
+        Me.lblServerPort.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblServerPort.Name = "lblServerPort"
-        Me.lblServerPort.Size = New System.Drawing.Size(84, 17)
+        Me.lblServerPort.Size = New System.Drawing.Size(63, 13)
         Me.lblServerPort.TabIndex = 2
         Me.lblServerPort.Text = "Server Port:"
         '
         'lblServerIP
         '
         Me.lblServerIP.AutoSize = True
-        Me.lblServerIP.Location = New System.Drawing.Point(75, 25)
+        Me.lblServerIP.Location = New System.Drawing.Point(56, 20)
+        Me.lblServerIP.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblServerIP.Name = "lblServerIP"
-        Me.lblServerIP.Size = New System.Drawing.Size(70, 17)
+        Me.lblServerIP.Size = New System.Drawing.Size(54, 13)
         Me.lblServerIP.TabIndex = 3
         Me.lblServerIP.Text = "Server IP:"
         '
         'btnVerbinden
         '
-        Me.btnVerbinden.Location = New System.Drawing.Point(38, 155)
+        Me.btnVerbinden.Location = New System.Drawing.Point(28, 126)
+        Me.btnVerbinden.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnVerbinden.Name = "btnVerbinden"
-        Me.btnVerbinden.Size = New System.Drawing.Size(144, 26)
+        Me.btnVerbinden.Size = New System.Drawing.Size(108, 21)
         Me.btnVerbinden.TabIndex = 4
         Me.btnVerbinden.Text = "Verbinden"
         Me.btnVerbinden.UseVisualStyleBackColor = True
         '
-        'Client
+        'Verbinden
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(221, 208)
+        Me.ClientSize = New System.Drawing.Size(166, 169)
         Me.Controls.Add(Me.btnVerbinden)
         Me.Controls.Add(Me.lblServerIP)
         Me.Controls.Add(Me.lblServerPort)
         Me.Controls.Add(Me.txtbServerPort)
         Me.Controls.Add(Me.txtbServerIP)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.Name = "Client"
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "Verbinden"
         Me.Text = "Client"
         Me.ResumeLayout(False)
         Me.PerformLayout()
