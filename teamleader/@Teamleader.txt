@@ -8,6 +8,11 @@ Antwort:
 Frage: Gui in Deutsch oder in Englisch
 Antwort:
 
+3)
+Frage: Dürfen wir das vorgeschriebene Protokoll  zwischen Server und Client verändern?
+Antwort:
+
+
 >>Aufgaben:
 
 -
