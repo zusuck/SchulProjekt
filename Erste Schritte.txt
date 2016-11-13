@@ -1,0 +1,8 @@
+Laut Aufgabe müssen wir  Design vorschläge machen und uns dann beraten welcher besser ist. Mit hilfe von usecase und ich wird Gui screenshots als ideen anhängen.
+nach ein paar vorschlägen müssen wir uns entscheiden und der Teamleiter muss die begründung aufschreiben!
+
+1. Marc und ich werden design vorschläge machen und diese als word in den Planungsordner speichern. mit begründung (kommt alles später besser an rechtschreibung beachten!!!)
+2. Wir werden ein "Meeting zu 4 machen und uns beraten welcher vorschlag am besten ist
+
+Regeln! jede änderung an datein  vorallem an SourceCode dateien begründen und beschreiben!
+Wir arbeiten wahrscheinlich mit branches (sobald ich genau  verstehe wie es funzt) so das hier erst eine bestätigung für änderung an dateien braucht!
