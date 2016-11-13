@@ -1,0 +1,22 @@
+cmd / cmds = command / commands
+
+
+-Client verbindet sich mit Server
+-Benutzer trennt Verbindung mit Client & Server
+-Client erhält cmds vom Server
+-Client übermittelt:
+			-MOVE_RIGHT, MOVE_LEFT, MOVE_FORWARD, MOVE_BACKWARD
+			-TURRET_UPWARD, TURRET_DOWNWARD
+			-SENSOR_GETALL
+-Client sendet einen cmd und wartet auf Server antwort bevor erneut ein cmd gesendet werden kann
+-Client wird dargestellt ob cmd ausgeführt wird.
+-Bei unerwarteten Verbindungsabbruch wird User informiert und automatisch wird verucht die Verbindung herzustellen.
+-Selbsterklärendes Interface
+-Sollte keine Probleme bei User input bekommen 
+-Zusätzlich kann übermittelt werden:
+			-SENSOR_GET_LIGHT
+			-SENSOR_GET_TEMP
+			-SENSOR_GET_SWITCH
+-Sensor Ergebnisse werden graphisch dargestellt
+-Cient wird geblockt wenn andere Client interagieren mit dem Server
+
