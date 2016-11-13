@@ -1,0 +1,41 @@
+>>Server Requierements:
+
+1: Kontrolsoftwareport: 9747
+
+2: Server Hört einen Anderen Port ab  für einkommende Befehle vom Client
+
+3: Und antwortet auf diese mit:
+  - RECEIVED : command received
+  - WAIT  : robot not accessible client has to wait
+  - READY : ready for the next commanmd
+
+4: Alle empfangenen Befehle vom Client werden in definierte befehle übersetzt (siehe punkt 5)
+
+5: Housten Control Software Commands:
+
+  Die Software empfängt:
+  
+  - simf -> forward
+  - simb -> backward
+  - siml -> left
+  - simr -> right
+
+  - simu -> turret upwards
+  - simu -> turret upwards
+
+  - sima -> turret get all sensor
+
+  Und Sendet:
+
+  - ACKN -> Acknowledge, command received
+  - FINI -> command execution finished
+  - REDY -> ready for next command
+  - WAIT -> waiting cannot accept command
+
+  - S000 ->
+  - L000 -> values from the sensors (S=Switchsensor ; L=Lightsensor ; T=temperaturesensor)
+  - T000 ->
+
+
+
+
