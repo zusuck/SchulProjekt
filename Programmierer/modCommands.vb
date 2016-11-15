@@ -1,6 +1,6 @@
 Module modCommands    
 ''' <summary>
-    ''' Trennt den Haupt-Command und alle Argumente voneinander und übergibt Sie per Reference
+''' Trennt den Haupt-Command und alle Argumente voneinander und übergibt Sie per Reference
 ''' </summary>
 ''' <param name="DATA">Der Command mit allen Argumenten angehangen</param>
 ''' <param name="command">Hier wird per Reference der eigentliche Command übergeben</param>
@@ -31,10 +31,12 @@ Module modCommands
         Select Case command
 
             'Beispiel
-            'DATA = COMMAND|1|2|3
+            'DATA wäre in dem Fall => COMMAND|1|2|3
+			'Dann würde das Switch Case hier z.B. aussehen:
+			'
             'Case "COMMAND"
             'if args(0)= 1 then
-            'fnGehNachHause(args(1),args(2))
+            'BeispielFunktion(args(1),args(2))
             'end if
 
         End Select
