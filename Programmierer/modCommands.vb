@@ -1,6 +1,6 @@
 Module modCommands    
 ''' <summary>
-''' Trennt den Haupt-Command und alle Argumente voneinander und übergibt Sie per Reference
+    ''' Trennt den Haupt-Command und alle Argumente voneinander und übergibt Sie per Reference
 ''' </summary>
 ''' <param name="DATA">Der Command mit allen Argumenten angehangen</param>
 ''' <param name="command">Hier wird per Reference der eigentliche Command übergeben</param>
@@ -31,15 +31,21 @@ Module modCommands
         Select Case command
 
             'Beispiel
-            'DATA wäre in dem Fall => COMMAND|1|2|3
+         'DATA wäre in dem Fall => COMMAND|1|2|3
 			'Dann würde das Switch Case hier z.B. aussehen:
 			'
             'Case "COMMAND"
-            'if args(0)= 1 then
-            'BeispielFunktion(args(1),args(2))
+        'if args(0)= 1 and args.length=3 then
+        'BEISPIELFUNKTION(args(1),args(2))
             'end if
 
         End Select
 
     End Sub
+
+    Public Structure UserStatus
+        Public Const Offline = 0 '(Port ist mit anderen Worten frei)
+        Public Const Connected = 1 'ist mit dem Server verbungen aber controlliert den Roboter nicht!
+        Public Const Controlling = 2
+    End Structure
 End Module
