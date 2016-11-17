@@ -135,16 +135,6 @@ Public Class clsDesign
         End Set
     End Property
 
-
-    Public Property enableResizing As Boolean
-        Get
-            Return bResize
-        End Get
-        Set(ByVal value As Boolean)
-            bResize = value
-        End Set
-    End Property
-
 #Region "ETC"
     Private Sub pHeader_MouseDown(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles pheader.MouseDown, lblTitle.MouseDown
         GUI_move_a = Control.MousePosition.X - Form.Location.X
