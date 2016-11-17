@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Design
+</name>
+</assembly>
+<members>
+<member name="M:Design.clsDesign.#ctor(System.Windows.Forms.Form@)">
+	<param name="frm">Reference für die Form die Designed werden muss</param>
+</member><member name="M:Design.clsDesign.designForm(System.Drawing.Color,System.Drawing.Color,System.String,System.Drawing.Color,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Erstellt das komplette Design
+ </summary>
+	<param name="cBodyColor">Setzt die Farbe des Bodys</param>
+	<param name="cBorderColor">Setzt die Farbe des Rahmens</param>
+	<param name="sTitleName">Setzt den Titel</param>
+	<param name="cTitleColor">Setzt die Schriftfarbe des Titels</param>
+	<param name="iTitleSize">Setzt die Schriftgröße des Titels</param>
+	<param name="iBorderSize">Setzt die Rahmenbreite</param>
+	<param name="iControlBoxIconSize">Setzt die Größe/Breite der Beenden und Minimieren Buttons</param>
+	<param name="iControlBoxIconSpace">Setzt den Platz zwischen den Beenden und Minimieren Buttons</param>
+	<param name="iHeaderHeight">Setzt die Höhe des Headers</param>
+</member><member name="P:Design.My.Resources.Resources.ResourceManager">
+	<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member><member name="P:Design.My.Resources.Resources.Culture">
+	<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member><member name="P:Design.My.Resources.Resources.CloseDefault">
+	<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Design.My.Resources.Resources.CloseHover">
+	<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Design.My.Resources.Resources.MinimizeDefault">
+	<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Design.My.Resources.Resources.MinimizeHover">
+	<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Design.My.Resources.Resources">
+	<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+</members>
+</doc>

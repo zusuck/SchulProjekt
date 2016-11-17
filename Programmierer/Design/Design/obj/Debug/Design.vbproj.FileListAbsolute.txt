@@ -1,0 +1,8 @@
+G:\Project\SchulProjekt\Programmierer\Design\Design\bin\Debug\Design.dll
+G:\Project\SchulProjekt\Programmierer\Design\Design\bin\Debug\Design.pdb
+G:\Project\SchulProjekt\Programmierer\Design\Design\bin\Debug\Design.xml
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Debug\Design.Resources.resources
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Debug\Design.vbproj.GenerateResource.Cache
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Debug\Design.dll
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Debug\Design.xml
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Debug\Design.pdb

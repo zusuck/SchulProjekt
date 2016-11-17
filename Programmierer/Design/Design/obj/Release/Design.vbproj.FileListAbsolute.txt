@@ -1,0 +1,16 @@
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\bin\Release\Design.dll
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\bin\Release\Design.pdb
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\bin\Release\Design.xml
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\obj\Release\Design.Resources.resources
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\obj\Release\Design.vbproj.GenerateResource.Cache
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\obj\Release\Design.dll
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\obj\Release\Design.xml
+C:\Users\Maximilian\AppData\Local\Temporary Projects\Design\obj\Release\Design.pdb
+G:\Project\SchulProjekt\Programmierer\Design\Design\bin\Release\Design.dll
+G:\Project\SchulProjekt\Programmierer\Design\Design\bin\Release\Design.pdb
+G:\Project\SchulProjekt\Programmierer\Design\Design\bin\Release\Design.xml
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Release\Design.Resources.resources
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Release\Design.vbproj.GenerateResource.Cache
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Release\Design.dll
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Release\Design.xml
+G:\Project\SchulProjekt\Programmierer\Design\Design\obj\Release\Design.pdb
