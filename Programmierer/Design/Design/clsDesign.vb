@@ -4,7 +4,7 @@ Public Class clsDesign
     Public Event clickedClose()
     Public Event clickedMinimize()
     Dim newPoint As New System.Drawing.Point()
-    Dim fFont As New Font("Segoe UI", 8)
+    Dim fFont As Font
     Dim GUI_move_a As Integer
     Dim GUI_move_b As Integer
     Private WithEvents Form As Form
@@ -22,6 +22,7 @@ Public Class clsDesign
     ''' <param name="frm">Reference für die Form die Designed werden muss</param>
     Public Sub New(ByRef frm As Form)
         Form = frm
+        fFont = Form.Font
     End Sub
 
     ''' <summary>
